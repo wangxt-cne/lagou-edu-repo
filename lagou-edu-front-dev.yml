@@ -1,0 +1,7 @@
+spring:
+  oauth:
+    client_id: test_client
+    client_secret: test_secret
+    scope: read
+    grant_type: password
+    refresh_grant_type: refresh_token

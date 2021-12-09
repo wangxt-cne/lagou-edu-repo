@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://81.68.241.217:3306/edu_oauth?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: uMoXCxmFC2+f
+  
+  oauth:
+    client_id: test_client
+    client_secret: test_secret
+    scope: read
+    grant_type: password
+    refresh_grant_type: refresh_token
